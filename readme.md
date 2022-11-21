@@ -7,10 +7,24 @@
 
 ## Wykorzystywane metody:
 
-1) klasyczne metody klasteryzacji (np. spektralne),
+1) Autoenkoder:
+   - [x] Autoenkodery odszumiające (ang. denoising autoencoders) DAE
+   - [ ] Autoenkodery rzadkie (ang. sparse autoencoders) SAE
+   - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE
 
 
-2) neuronowe nienadzorowane metody redukcji wymiarowosci:
+2) reprezentacji i wizualizacji przestrzeni wysokowymiarowych (np. UMAP)
+
+
+3) klasyczne metody klasteryzacji (np. spektralne / kmeans),
+
+
+4) maping
+
+
+5) jezeli nie wychodzi->
+
+   neuronowe nienadzorowane metody redukcji wymiarowosci: (/dimension_reduction/main.ipynb)
    - [x] Principal component analysis (PCA)
    - [x] Kernel Principal component analysis (KPCA)
    - [x] Sparse Principal Components Analysis (SparsePCA)
@@ -18,23 +32,21 @@
    - [x] Non-Negative Matrix Factorization (NMF)
    - [x] Isomap Embedding (Isomap)
    - [x] Multidimensional scaling (MDS)
-   - [ ] Maximum Variance Unfolding (MVU)
-   - [ ] Diffusion Maps (DM)
    - [x] Locally Linear Embedding (LLE) 
    - [x] Laplacian Eigenmaps (LEM) Spectral embedding for non-linear dimensionality reduction
    
-autoenkodery???[Link](https://miroslawmamczur.pl/czym-sa-autoenkodery-autokodery-i-jakie-maja-zastosowanie/)
-   - [x] Autoenkodery odszumiające (ang. denoising autoencoders) DAE
-   - [ ] Autoenkodery rzadkie (ang. sparse autoencoders) SAE
-   - [ ] Autoenkodery kurczliwe (ang. contractive autoencoders)
-   - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE
-   - [ ] Autoenkodery antagonistyczne (ang. adversarial autoencoders)
 
 
-3) reprezentacji i wizualizacji przestrzeni wysokowymiarowych (np. UMAP)
+autoenkodery [Link](https://miroslawmamczur.pl/czym-sa-autoenkodery-autokodery-i-jakie-maja-zastosowanie/)
 
-
-4) nienadzorowane metody odszumiania (np. pamieci autoasociatywne)
+Plan dzialan:
+- Autoenkoder 
+- umap -> duzo kulek
+- jezeli da sie podzielic na klastry -> do klasteryzatora 
+- jezeli klastrw ~47 (45 - 49) -> mapowanie po ilosci populacji
+- jezeli klastrow mniej -> sprobowac klasteryzacje z innymi parametrami(kmean / spectral )
+- if umap = 1/2 -> nauczyc inaczej autoenkoder
+- jezeli nie wychodzi -> sprobowac z redukcj wymiarowosci
 
 
 
