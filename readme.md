@@ -8,9 +8,9 @@
 ## Wykorzystywane metody:
 
 1) Autoenkoder:
-   - [ ] Autoenkodery odszumiające (ang. denoising autoencoders) DAE    Rafał, Kasia
+   - [ ] Autoenkodery odszumiające (ang. denoising autoencoders) DAE    Rafał, 
    - [ ] Autoenkodery rzadkie (ang. sparse autoencoders) SAE            Bartek
-   - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE    Ewelina
+   - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE    Kasia
 
 
 2) reprezentacji i wizualizacji przestrzeni wysokowymiarowych (np. UMAP)
