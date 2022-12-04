@@ -8,9 +8,9 @@
 ## Wykorzystywane metody:
 
 1) Autoenkoder:
-   - [x] Autoenkodery odszumiające (ang. denoising autoencoders) DAE
-   - [ ] Autoenkodery rzadkie (ang. sparse autoencoders) SAE
-   - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE
+   - [ ] Autoenkodery odszumiające (ang. denoising autoencoders) DAE    Rafał, 
+   - [ ] Autoenkodery rzadkie (ang. sparse autoencoders) SAE            Bartek
+   - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE    Kasia
 
 
 2) reprezentacji i wizualizacji przestrzeni wysokowymiarowych (np. UMAP)
@@ -47,7 +47,3 @@ Plan dzialan:
 - jezeli klastrow mniej -> sprobowac klasteryzacje z innymi parametrami(kmean / spectral )
 - if umap = 1/2 -> nauczyc inaczej autoenkoder
 - jezeli nie wychodzi -> sprobowac z redukcj wymiarowosci
-
-
-
-
