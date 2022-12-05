@@ -11,8 +11,13 @@
    - [ ] Autoenkodery odszumiające (ang. denoising autoencoders) DAE    Rafał, 
    - [ ] Autoenkodery rzadkie (ang. sparse autoencoders) SAE            Bartek
    - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE    Kasia
+   
+https://learnopencv.com/autoencoder-in-tensorflow-2-beginners-guide/
+https://keras.io/examples/generative/vae/
+https://towardsdatascience.com/vae-variational-autoencoders-how-to-employ-neural-networks-to-generate-new-images-bdeb216ed2c0
+https://learnopencv.com/variational-autoencoder-in-tensorflow/#reconstruct-cartoon-uniform
 
-
+     
 2) reprezentacji i wizualizacji przestrzeni wysokowymiarowych (np. UMAP)
 
 
