@@ -54,3 +54,9 @@ Plan dzialan:
 - jezeli klastrow mniej -> sprobowac klasteryzacje z innymi parametrami(kmean / spectral )
 - if umap = 1/2 -> nauczyc inaczej autoenkoder
 - jezeli nie wychodzi -> sprobowac z redukcj wymiarowosci
+
+
+Plan:
+47?
+SpectralClustering
+maping
