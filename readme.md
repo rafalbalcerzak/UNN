@@ -11,8 +11,15 @@
    - [ ] Autoenkodery odszumiające (ang. denoising autoencoders) DAE    Rafał, 
    - [ ] Autoenkodery rzadkie (ang. sparse autoencoders) SAE            Bartek
    - [ ] Autoenkodery wariacyjne (ang. variational autoencoders) VAE    Kasia
+   
+https://learnopencv.com/autoencoder-in-tensorflow-2-beginners-guide/
+https://keras.io/examples/generative/vae/
+https://towardsdatascience.com/vae-variational-autoencoders-how-to-employ-neural-networks-to-generate-new-images-bdeb216ed2c0
+https://learnopencv.com/variational-autoencoder-in-tensorflow/#reconstruct-cartoon-uniform
+https://matthew-parker.rbind.io/post/2021-01-16-pytorch-keras-clustering/
+https://www.kaggle.com/code/gauravduttakiit/clustering-using-autoencoders-ann/notebook
 
-
+     
 2) reprezentacji i wizualizacji przestrzeni wysokowymiarowych (np. UMAP)
 
 
@@ -47,3 +54,9 @@ Plan dzialan:
 - jezeli klastrow mniej -> sprobowac klasteryzacje z innymi parametrami(kmean / spectral )
 - if umap = 1/2 -> nauczyc inaczej autoenkoder
 - jezeli nie wychodzi -> sprobowac z redukcj wymiarowosci
+
+
+Plan:
+47?
+SpectralClustering
+maping
