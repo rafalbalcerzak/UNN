@@ -7,7 +7,7 @@ from tensorflow.keras import layers
 
 input_spe = (32, 32, 1)
 latent_dim = 14
-PATH = 'D:/magist/semestr 2/UczNienadwz/UNN/1_sign_per_class_no_distortions_whole_book/1_sign_per_class_no_distortions_whole_book/dataset_1_sign_per_class_no_distortions_whole_book.npy'
+PATH = 'E:/Studia/SIiUM/sem2/UNN/1_sign_per_class_no_distortions_whole_book/dataset_1_sign_per_class_no_distortions_whole_book.npy'
 
 
 # dataset
